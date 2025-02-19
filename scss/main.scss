@@ -1,34 +1,14 @@
 @import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
 @import 'custom';
 
-/* Personnalisation supplémentaire */
-.split-layout {
-    display: flex;
-    min-height: 100vh;
-  }
-  
-  .left-section {
-    flex: 1;
-    background-color: #f8f9fa;
-    padding: 20px;
-  }
-  
-  .right-section {
-    flex: 1;
-    background-color: #ffffff;
-    padding: 20px;
-  }
-  
-  .carousel-caption {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  footer {
-    background-color: #343a40;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    margin-top: auto;
-  }
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+footer.footer{
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

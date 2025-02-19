@@ -11966,34 +11966,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* Personnalisation supplémentaire */
-.split-layout {
-  display: flex;
-  min-height: 100vh;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
-.left-section {
-  flex: 1;
-  background-color: #f8f9fa;
-  padding: 20px;
-}
-
-.right-section {
-  flex: 1;
-  background-color: #ffffff;
-  padding: 20px;
-}
-
-.carousel-caption {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  border-radius: 10px;
-}
-
-footer {
-  background-color: #343a40;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-  margin-top: auto;
+footer.footer {
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
