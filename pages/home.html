@@ -1,42 +1,37 @@
 <div class="container mt-4">
   <div class="row h-100">
-      <!-- Carrousel à gauche 
-      <div class="col-md-7">-->
+      <!-- Carrousel à gauche -->
       <div class="col-md-6">
         <div id="carouselExampleDark" class="carousel carousel-dark slide w-100 h-100" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="6000">
-              <img src="/images/Tesla.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
+              <img src="/images/EcoRide-Partager la route, réduisez l'emprunte.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
               <img src="/images/convivialité.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+              <div class="carousel-caption d-none d-md-block text-white">
+                <h5>Convivialité</h5>
+                <p class="legende">Voyagez avec des personnes partageant les mêmes valeurs, pour une expérience plus agréable et sociale.</p>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
               <img src="/images/securité.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+              <div class="carousel-caption d-none d-md-block text-white">
+                <h5>Sécurité avant tout</h5>
+                <p class="legende">Chez EcoRide, la sécurité et la confiance sont primordiales. Nos conducteurs sont soigneusement vérifiés avant de rejoindre notre plateforme.</p>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="3000">
               <img src="/images/entre filles.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+              <div class="carousel-caption d-none d-md-block text-white">
+                <h5>Voyages entre filles</h5>
+                <p class="legende">Optez pour des trajets entre femmes pour plus de confort et de sérénité.</p>
               </div>
             </div>
           </div>
@@ -51,31 +46,30 @@
         </div>
       </div>
 
+      <!-- Formulaire à droite -->
       <div class="col-md-5 d-flex align-items-center justify-content-center h-80">
-        <div class="p-4 w-75"> <!-- Réduction de la largeur du formulaire pour un meilleur rendu -->
-            <!--<h3 class="text-center">Votre Covoiture</h3>-->
+        <div class="p-4 w-75 bg-dark bg-opacity-75 rounded"> <!-- Fond sombre transparent et arrondi -->
             <form>
               <div class="mb-1">
                   <input type="text" class="form-control" id="villeDepart" placeholder="Entrez la ville de départ">
-                </div>
-        
-                <div class="mb-1">
+              </div>
+              <div class="mb-1">
                   <input type="text" class="form-control" id="villeArrivee" placeholder="Entrez la ville d'arrivée">
-                </div>
-        
-                <div class="mb-1">
+              </div>
+              <div class="mb-1">
                   <input type="date" class="form-control" id="dateVoyage">
-                </div>
-        
-                <div class="mb-1">
+              </div>
+              <div class="mb-1">
                   <input type="number" class="form-control" id="nbParticipants" min="1" placeholder="Nombre de personnes">
-                </div>
-                <div class="text-center">
+              </div>
+              <div class="text-center">
                   <button type="submit" class="btn btn-primary">Rechercher</button>
-                  <p>Afin de faire une recherche, vous devez être connecté !</p>
-                </div>
+                  <div class="text-center pt-3 ">
+                    <a href="/signin" class="text-white">Afin de faire une recherche, vous devez être connecté !</a>
+                  </div>
+              </div>
             </form>
         </div>
-    </div>
+      </div>
   </div>
 </div>

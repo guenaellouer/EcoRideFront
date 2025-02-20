@@ -5,12 +5,12 @@ html{
   position: relative;
   min-height: 100%;
 }
-
+/*
 html, body {
   height: 100%;
   margin: 0;
 }
-
+*/
 main{
   margin-bottom: 250px;
 }
@@ -27,7 +27,6 @@ p{
   font-size: 18px;
 }
 
-/*
 .hero-scene{
   position: relative;
   &::before{
@@ -54,13 +53,25 @@ p{
     align-items: center;
     justify-content: center;
   }
-*/
+}
   .carousel-control-prev{
     color: red;
   }
 
   .carousel-control-next{
     color: red;
+  }
+
+  .legende {
+    text-align: justify; /* Justification du texte */
+    font-size: 0.9rem; /* Taille du texte */
+    
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fond noir semi-transparent */
+    padding: 15px; /* Espacement intérieur */
+    border-radius: 8px; /* Coins arrondis */
   }
 
   .form-container {
